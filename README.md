@@ -12,4 +12,12 @@ docker build -t *nome*/golang:small . -f  Dockerfile.small
 ```
 docker run -it --rm *nome*/golang:small
 ```
+Fontes e informações:
 
+- index.go: Utilizado exemplo do site https://gobyexample.com/hello-world para colocar a frase solicitada.
+
+- Dockerfile: Imagem com tamanho "normal".
+
+- Dockerfile.small: Imagem com tamanho reduzido.
+
+- Docker Image: https://hub.docker.com/r/mteixeira84/golang
